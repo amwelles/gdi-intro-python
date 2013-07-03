@@ -17,7 +17,7 @@ if twenty_one == 'y':
 	elif how_many > 1:
 		print 'you got a little tipsy.'
 	else:
-		print 'so I guess you\'re the designated driver.'
+		print 'so... I guess you\'re the designated driver.'
 else:
 	print 'you may not have a beer.'
 	print 'but here, have a glass of juice!'
