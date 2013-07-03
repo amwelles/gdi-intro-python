@@ -2,6 +2,7 @@
 # prescendence determines which order things are evaluated
 # elif = elseif
 # no switch/case statement -- could use dictionary
+# tab size should be 4, according to standards
 
 twenty_one = raw_input('are you over 21? (y/n) ')
 
