@@ -14,7 +14,7 @@ if twenty_one == 'y':
 		print 'you got alcohol poisoning. :('
 	elif how_many > 3:
 		print 'oops, you\'re drunk!'
-	elif how_many > 1:
+	elif how_many >= 1:
 		print 'you got a little tipsy.'
 	else:
 		print 'so... I guess you\'re the designated driver.'
