@@ -11,3 +11,13 @@
 # easier string formatting
 ## print name, 'is in the', index, 'position' <-- adds spaces where commas are
 ## message = '{0} is in the {1} position'.format(name, index)
+
+from duckduckgo import query
+import pdb
+
+input_term = raw_input('enter a search term: ')
+results = query(input_term).related
+
+for result in results:
+	# pdb.set_trace()
+	print getattr(result, 'url', None)
